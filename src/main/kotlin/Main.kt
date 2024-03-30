@@ -11,7 +11,7 @@ fun main() {
     circlePerimeter(radius)
 }
 fun circleArea(radiusA:Float){
-    val circleAreaA= 3.4*(radiusA.pow(2))
+    val circleAreaA= 3.14*(radiusA.pow(2))
     println(circleAreaA)
 }
 fun circlePerimeter(radiusP:Float){
