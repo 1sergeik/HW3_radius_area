@@ -2,8 +2,8 @@ import kotlin.math.*
 
 fun main() {
     println("Enter the radius of the circle:")
-    val radiusText_= readLine()
-    val radiusText = radiusText_.toString()
+    val radiusText:String= readLine().toString()
+    //val radiusText = radiusText_.toString()
     val radius: Float = radiusText.toFloat()
     println("The circle area is:")
     circleArea(radius)
